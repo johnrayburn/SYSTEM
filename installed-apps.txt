@@ -1,0 +1,28 @@
+   10  sudo apt install chromium
+   27  sudo apt install vim
+   39  sudo apt install git
+   46  sudo apt install fzf ripgrep
+   81  sudo apt install tree
+   87  sudo apt install build-essential 
+   95  cat .bash_history | grep "sudo apt install"
+   96  cat .bash_history | grep "sudo apt install" >> installed-apps.txt
+  102  cat .bash_history | grep "sudo apt install" > installed-apps.txt
+  105  sudo apt install xclip
+  106  cat .bash_history | grep "sudo apt install" > installed-apps.txt
+  108  sudo apt install opera
+  109  sudo apt install brave
+  114  sudo apt install epiphany-browser
+  115  sudo apt install unrar
+  117  cat .bash_history | grep "sudo apt install" > installed-apps.txt
+  119  history | grep "sudo apt install" > installed-apps.txt
+  134  sudo apt install spacefm
+  135  sudo apt install filezilla
+  136  history | grep "sudo apt install" > installed-apps.txt
+  141  sudo apt install efitools
+  145  sudo apt install tmux
+  146  history | grep "sudo apt install" > installed-apps.txt
+  147  echo 'history | grep "sudo apt install" > installed-apps.txt' > installed-apps.bash
+  151  sudo apt install groff
+  152  sudo apt install retext
+  175  sudo apt install tldr
+  178  sudo apt install libghc-tldr-doc libghc-tldr-prof
