@@ -1,0 +1,2 @@
+git remote add origin git@github.com:johnrayburn/SYSTEM.git
+git remote add origin git@github.com:johnrayburn/Indicators_TradingView.git
