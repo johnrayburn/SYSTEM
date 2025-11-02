@@ -18,4 +18,6 @@ ln -sf {./personal,~/config}/nvim/lua/config/options.lua
 ln -sf {./personal,~/config}/nvim/lua/plugins/colorschemes.lua
 ln -sf {./personal,~/config}/nvim/lua/plugins/disabled.lua
 
+mv {./personal,~/config}/git/config
+
 nvim
