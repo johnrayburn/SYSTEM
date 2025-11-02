@@ -1,11 +1,13 @@
 #!/bin/bash
 
 pushd /opt
+rm -rf /opt/nvim-linux-x86_64
 curl -LO https://github.com/neovim/neovim/releases/latest/download/nvim-linux-x86_64.tar.gz
-rm -rf /opt/nvim
-tar -C /opt -xzf nvim-linux64.tar.gz
-ln -sf /opt/nvim-linux64/bin/nvim /usr/local/bin/nvim
+tar -C /opt -xzf nvim-linux-x86_64.tar.gz
+ln -sf /opt/nvim-linux-x86_64/bin/nvim /usr/local/bin/nvim
 popd
+
+[ -x "$(command -v nvim)" ] && echo "neovim installed" && exit 0
 
 # required
 mv ~/.config/nvim{,.bak}
